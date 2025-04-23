@@ -16,6 +16,7 @@
             "outputPath": "dist/hoja-de-vida",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/CV/",
             "polyfills": [
               "zone.js"
             ],
