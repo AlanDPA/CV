@@ -1,0 +1,8 @@
+<h3 class="text-green-600 font-semibold">{{ title }}</h3>
+<h4 class="font-semibold text-sky-600">{{company}}, Lima</h4>
+<p class="font-semibold">Diciembre 2020 - Mayo 2021</p>
+<ul>
+    @for (activity of activities; track $index) {
+        <li class="list-disc list-inside">{{activity}}</li>
+    }
+</ul>
